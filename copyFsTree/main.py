@@ -16,6 +16,6 @@ def mk_tree(src: str, dst: str) -> None:
             curr_path.touch()
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # simple comment
     Path(dst_dir).mkdir()
     mk_tree(src_dir, dst_dir)
